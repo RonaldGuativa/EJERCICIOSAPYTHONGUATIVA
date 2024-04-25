@@ -1,8 +1,11 @@
 #ingresar la informacion y ingresar los valores correspodientes
 
 vendedor=input("ingrese el nombre del vendedor Papi")
+#ingresar la informacion y ingresar los valores correspodientes
 sueldo=float(input("ingrese el sueldo bby "))
+#ingresar la informacion y ingresar los valores correspodientes
 ComisionV=float(input("ingrese el valor de la comision honey"))
+#ingresar la informacion y ingresar los valores correspodientes
 VentasT=float(input("ingrese el numero de ventas porfi"))
 
 #sumar el sueldo con la comision 
