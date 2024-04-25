@@ -1,6 +1,8 @@
 #ingresar los valores de las compras
 
 valorcompra = float(input("Ingrese el valor de la compra: "))
+
+#ingresar los valores del descuentos
 descuento = float(input("Ingrese el valor del descuento (%): "))
 
 # Se calcula el valor del descuento en dinero
