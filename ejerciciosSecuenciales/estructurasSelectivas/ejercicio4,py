@@ -1,17 +1,17 @@
 import random
 
-# Definir los descuentos según el color de la balota
+# De las lineas 4 a 5  se definen los descuentos según el color de la balota
 descuento_rojo = 0.15  # Descuento del 15% si la balota es roja
 descuento_verde = 0.20  # Descuento del 20% si la balota es verde
 
-# Solicitar al usuario ingresar el valor total de la compra
+# Solicitamos al usuario ingresar el valor total de la compra
 valor_compra = float(input("Ingrese el valor total de la compra: "))
 
-# Simular la extracción aleatoria de un color de balota
+#de la lineas 11 a 12 Simulamos la extracción aleatoria de un color de balota
 colores = ['rojo', 'verde']
 color_balota = random.choice(colores)
 
-# Determinar el descuento según el color de la balota
+#de las lineas 15 a 20 determinamos las condiciones y el descuento según  el color de la balota
 if color_balota == 'rojo':
     descuento = descuento_rojo
 elif color_balota == 'verde':
@@ -19,11 +19,11 @@ elif color_balota == 'verde':
 else:
     descuento = 0.0  # No hay descuento si el color no es rojo ni verde
 
-# Calcular el valor a pagar después del descuento
+#de la linea 23a 24 calculamos el valor a pagar después del descuento
 valor_descuento = valor_compra * descuento
 valor_a_pagar = valor_compra - valor_descuento
 
-# Imprimir los resultados
+#de la linea 27 a 33 se muestran los resultados
 print(f"Valor de la compra: ${valor_compra:.2f}")
 print(f"Color de la balota: {color_balota}")
 if descuento > 0:
