@@ -1,7 +1,7 @@
-# Solicitar el monto total de la compra a la empresa
+# Se solicita el monto total de la compra a la empresa
 monto_compra = float(input("Ingrese el monto total de la compra: "))
 
-# Definir las condiciones según el monto de la compra
+#De la linea 4 a 14 se Defininen las condiciones según el monto de la compra
 if monto_compra > 500000:
     # Caso 1: Monto de compra mayor a $500,000
     inversion_propia = 0.55 * monto_compra
@@ -16,7 +16,7 @@ else:
 # Calcular los intereses a pagar al fabricante por el crédito
 intereses_credito = 0.20 * credito_fabricante
 
-# Imprimir los resultados
+#De la linea 20 a 23 se muestran los resultados segun la condicion a la que corresponda 
 print(f"Valor invertido de su propio dinero: ${inversion_propia:.2f}")
 print(f"Valor prestado al banco: ${prestamo_banco:.2f}")
 print(f"Valor del crédito solicitado al fabricante: ${credito_fabricante:.2f}")
