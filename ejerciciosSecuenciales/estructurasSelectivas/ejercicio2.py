@@ -30,3 +30,5 @@ print(f"Detalles de la compra:")
 print(f"- Precio unitario por zapatilla: ${precioxZapatilla:.2f}")
 print(f"- Total de la compra (sin descuento): ${total_compra:.2f}")
 print(f"- Descuento aplicado ({descuento * 100}%): ${monto_descuento:.2f}")
+
+#De las lineas 29 a 31 se imprimiran los mensajes correspondientes a cada ecuacion
